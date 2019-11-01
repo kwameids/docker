@@ -6,3 +6,4 @@ sonarqube/
 .env
 # files
 install.sh
+Makefile
