@@ -1,0 +1,8 @@
+# folders 
+pluginstest/
+sonarqube/
+# confs
+.built
+.env
+# files
+install.sh
