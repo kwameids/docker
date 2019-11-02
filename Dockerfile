@@ -10,7 +10,7 @@ RUN yum -y update && \
     && yum -y install net-tools \
     && yum -y install bash bash-completion \
     && yum -y install which vim \
-    && clean all
+    && yum clean all
 
 EXPOSE 80
 
