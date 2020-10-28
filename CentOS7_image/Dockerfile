@@ -1,7 +1,7 @@
 FROM centos:7
 MAINTAINER kwame.k177@outlook.de
 # RUN yum --exclude=openssh-\* --exclude=policycoreutils\* --exclude=libsemanage-\* --exclude=selinux-\* --exclude=iputils update -y
-LABEL Remarks="This is a dockerfile for only testing purpose v0.1"
+LABEL Remarks="This is a dockerfile for only testing purpose v1.2"
 ENV container docker
 ENV HOME /root
 WORKDIR /opt
@@ -11,6 +11,7 @@ RUN yum -y update \
     && yum -y install net-tools \
     && yum -y install bash bash-completion \
     && yum -y install which vim \
+    && yum -y install yum-cron \
     && yum clean all 
 
 RUN yum -y install systemd; yum clean all; \
