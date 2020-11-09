@@ -1,9 +1,8 @@
 # folders 
-pluginstest/
-sonarqube/
+TODOcassandra
+TODOmariaDB
+TODOpython3_image
+TODOrabbitMQ
 # confs
-.built
-.env
+
 # files
-install.sh
-Makefile
